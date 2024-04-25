@@ -1,21 +1,19 @@
-# Use an official Python runtime as a parent image
-FROM python:3.8-slim
+FROM python:3.9
 
-# Set the working directory in the container
+# Set working directory
 WORKDIR /app
 
-# Copy the dependencies file to the working directory
+# Copy requirements file
 COPY requirements.txt .
 
-# Install the dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Install dependencies
+RUN pip install -r requirements.txt
 
-# Copy the content of the local src directory to the working directory
+# Copy the rest of the application code
 COPY . .
 
-# Expose the port your app runs on
+# Expose the port that Streamlit listens on (default is 8501)
 EXPOSE 8501
 
-
-CMD ["streamlit", "run", "tsql_10.py"]
-
+# Command to run the Streamlit app
+CMD ["streamlit", "run", "tsql_10.py", "--server.port=8501"]
