@@ -1,15 +1,14 @@
 steps:
-  # Deploy the Docker image to Cloud Run
+  
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
       - 'deploy'
       - 'streamlit-app'
       - '--image'
-      - 'gcr.io/shared-vikas/streamlit-app:v1
+      - 'gcr.io/shared-vikas/streamlit-app:v1' 
       - '--platform'
       - 'managed'
       - '--region'
-      - 'us-central1'  
-      
+      - 'us-central1'
 
