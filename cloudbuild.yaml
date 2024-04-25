@@ -13,5 +13,6 @@ steps:
       - 'us-central1'
 options:
   machineType: 'N1_HIGHCPU_8'  # Optional: Customize machine type based on your requirements
-  logging: 
+  logging:
     - 'CLOUD_LOGGING_ONLY'  # Specify cloud logging only
+
