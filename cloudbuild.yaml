@@ -23,7 +23,7 @@ steps:
       - 'deploy'
       - 'streamlit-app'
       - '--image'
-      - 'gcr.io/$PROJECT_ID/your-app-name'
+      - 'gcr.io/$PROJECT_ID/streamlit-app'
       - '--platform'
       - 'managed'
       - '--region'
