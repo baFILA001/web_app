@@ -5,7 +5,7 @@ from google.cloud import bigquery
 from vertexai.preview.language_models import TextGenerationModel
 
 # Set Google Cloud credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/vikash/Downloads/brave-drummer-417713-26da72743010.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'brave-drummer-417713-26da72743010.json'
 
 # Initialize BigQuery client
 client = bigquery.Client()
