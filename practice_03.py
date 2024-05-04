@@ -3,9 +3,13 @@ import pandas as pd
 import os
 from google.cloud import bigquery
 from vertexai.preview.language_models import TextGenerationModel
+import toml
 
-# Set Google Cloud credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'brave-drummer-417713-26da72743010.json'
+# Load secrets from secrets.toml
+secrets = toml.load("secrets.toml")
+
+# Get the value of GOOGLE_APPLICATION_CREDENTIALS from secrets
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = secrets['env']['GOOGLE_APPLICATION_CREDENTIALS']
 
 # Initialize BigQuery client
 client = bigquery.Client()
