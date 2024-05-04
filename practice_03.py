@@ -3,14 +3,10 @@ import pandas as pd
 import os
 from google.cloud import bigquery
 from vertexai.preview.language_models import TextGenerationModel
-import toml
+from google.oauth2 import service_account
 
-# Load secrets from secrets.toml
-secrets = toml.load("secrets.toml")
-
-# Get the value of GOOGLE_APPLICATION_CREDENTIALS from secrets
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = secrets['env']['GOOGLE_APPLICATION_CREDENTIALS']
-
+credentials = service_account.Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"])
 # Initialize BigQuery client
 client = bigquery.Client()
 
