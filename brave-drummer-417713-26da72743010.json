@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "brave-drummer-417713",
+  "private_key_id": "26da72743010069638142f288de5b92bd026a802",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCOMHO7kyJuxKC2\nIwq2pvusWnUpuhvbcFKKDA3ASpoLQ0m5Hil36YHrQ2cAuDCTZveygWTpC2vY+dMj\niwxL60z0SH5NFqbTnIcBILRi/Mk81F/qWlkQFQSl34wIUhaJ+IHgfSsHitWZMDka\nhrbPzCXCfW95aeU1DozsnnxCXjA1Dl4LwJMXgybK17f4/DBnalRrF+ezW24yF2j9\njvnp3NpU5l7vG9grvuxWzE5gAOM28T89gOuHcWdQewMkJSDBrwcaxxTpBUAjzmuq\nhWM79v/TzyaQT6mtbYeBvysHAZQciWH2wxffECyNWXUREwOHCG7sjvTIsGvN2gMj\nl/PkC+kZAgMBAAECggEAA/dOAxljiHtrkCkCD34w3unXAsbyJ/jGFJupdoeeLFpA\nIC27MmENAqbqpJZ+pF3m4s/BJM7wvyiYvxEN0sBJcTbkbvoGxThEe7+RyIEMi+nQ\nkxTaDxzG+Gl32nOPtWF9Henf3WH9+zvhG+BOERW8p+Qfy98sSYKSY7c3+BHwfkpR\nplr6ZtfPh75C14qhPyXw8oeUOxHdDSunCUWu9ojhEnPYICiDhyHdRxRPQgXHQQ9Q\na/A79yWgDRHAdVorcnmJkaaHym98012he+lsepzRY2HSj0PTHeQEfOUety6fpKYG\n7DcoRFfy0Lux+bFhoxDnBiB1C3QK8vOxwH+AKp+OEQKBgQDGjOw4GSU4fYm/1cBS\nI6ozwtsWk4WXWE5HjKgfmHrKyxZcSM8ccULRMFXvcz8bLf/KoIUHa13uCdMTiOgg\nLJaDwLRmvyiaByrqmjUqBnPqB4OfWxWnWxgSin4DGblpWG3qsaACEJXJfg/jEKFX\nQFx3Ll74oebQJdIAPUIE330fEwKBgQC3VLp7Oo5Vb8jYg/AiW2Q+1zfy7JDrtmVj\n+Oxr7tB4YnjSeWVsyxhWZYo1tJgmTpr7KO+UpsbXkXeMBU2yEVEVq9g4ZDie/Xws\nQuHQc4KGXX2sBvVVjCcwfybh3Nlqulm0k0UwNGZWo/E+V1x66wHxKCIYu6RMz/5j\nyHiSSp5gowKBgG5SmWKmXi8gWiz0mVNKq+Ts7Y2C1OT+VSieeEBuGjSaWcdXUXVt\nXYIcyHMvZy40BgBR5vjzaJK+dMFS/h/6hnuY1OSObQIA35DRtJ6wTTIJkNI36zU9\ngYez2kbgwUxOrWyN2+mpy4DVAgDaGbwAcCBs7KpcU4LusNwfLZLFl6FvAoGBAKe+\neeaY/HUGFDKv/j+hecbZ65J1jGBwgrMHp2NWnx8Xks+aTghOiFU9EUn0lSav07St\njxFnzBagPk865w1gNN3sX6mxYfFvpHdnNvEhT7ObxYpqz33YAF+qaCxPhAvYuI22\nFp91wpHR7cGJ889wSlWa0B/rSPkTcwNgAZpxdhqbAoGBAJ9/YO11kPJn8/7VVKiQ\nhfRzxHK8YXXA4vLcVwW7McHkngo/LlJHTZjcIdmcytFR26H9LkqSjSQK3FfaWw7U\nCxl2+xVKO/L4nRoGayIIk+8tpU7HXmPmhaAZ8p6l+lSm6spY44WTwieexzEoYnpE\nhtBEbbEr3bNEpcVy47WYyMiq\n-----END PRIVATE KEY-----\n",
+  "client_email": "brave-drummer-417713@appspot.gserviceaccount.com",
+  "client_id": "116727775210793270202",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/brave-drummer-417713%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
